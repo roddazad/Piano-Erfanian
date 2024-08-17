@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: url('/piano.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* Ensures the background stays fixed when scrolling */
+    color: #f4f4f4; /* Change text color for readability across all pages */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for navbar */
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px; /* Adjust padding to account for fixed navbar */
+}
+
+.home-content {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-section,
+.services-section,
+.contact-section {
+    margin-top: 100px;
+    padding: 60px 20px;
+    /* text-align: left; */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for better readability */
+    /* margin: 20px 0; */
+    padding-top: 80px; /* Adjust padding to account for fixed navbar */
+    color: #333; /* Darker text color inside sections */
+}
+
+.services-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-section li {
+    padding: 10px 0;
+    font-size: 18px;
+    
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for footer */
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+    #contact{
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 1px ;
+    }
+    
+    
+}
+ .pic1{
+    width: 15%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 1000px;
+    margin-left: auto;
+ }
+ .pic2{
+    width: 20%;
+    height: 30%;
+    border: 2px solid white;
+    
+    /* border-radius: 1000px; */
+    /* margin-left: 250px; */
+ 
+ }
+ #contact {
+    display: flex;
+ }
+ #social-media{
+    /* display: flex; */
+    margin-left: auto;
+    
+ }
+ .icon{
+    width: 10%;
+    height: 15%;
+    border-radius: 100px;
+    margin-left: auto;  
+ }
+ .farsi{
+    /* justify-content: right;
+    align-items: center; */
+    text-align: right;
+    
+ }
+ .paragraph{
+    /* display: flex;
+    padding-top: 50px; */
+    /* width: 40vw;
+    height: auto; */
+ }
+ .li-items{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+ }
